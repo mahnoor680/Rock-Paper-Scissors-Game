@@ -74,8 +74,8 @@ let score =  JSON.parse
             .innerHTML = result;
 
         document.querySelector('.js-moves')
-            .innerHTML = `You <img src="images/${playerMove}-emoji.png" class="game-img">
-            <img src="images/${computerMove}-emoji.png" class="game-img">            
+            .innerHTML = `You <img src="${playerMove}-emoji.png" class="game-img">
+            <img src="${computerMove}-emoji.png" class="game-img">            
             Computer`;
         }
 
