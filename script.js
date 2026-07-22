@@ -57,7 +57,7 @@ let score =  JSON.parse
         if(result == 'You Win.'){
             score.wins += 1;
         }
-        else if(result == 'You lose.'){
+        else if(result == 'You Lose.'){
             score.losses += 1;
         }
         else if(result == 'Tie.'){
